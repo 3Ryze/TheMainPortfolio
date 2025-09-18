@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3ryze - Minecraft Development</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    
+    <!-- Navigation -->
+    <nav class="nav-wrapper">
+        <div class="nav-content">
+            <div class="logo">3ryze</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div id="particles-js" class="particles"></div>
+        <div class="hero-content">
+            <div class="hero-title-wrapper">
+                <h1 class="hero-title">
+                    <span class="hero-text">Minecraft Development</span>
+                    <br>
+                    <span class="hero-text">Made <span class="gradient-text glitch" data-text="Extraordinary">Extraordinary</span></span>
+                </h1>
+            </div>
+            <p class="hero-subtitle">Crafting premium plugins, mods, and datapacks for your Minecraft experience</p>
+            <div class="cta-buttons">
+                <a href="#portfolio" class="btn primary clickable">
+                    <span class="btn-content">View Portfolio</span>
+                    <span class="btn-glow"></span>
+                </a>
+                <a href="#contact" class="btn secondary clickable">
+                    <span class="btn-content">Get in Touch</span>
+                    <span class="btn-glow"></span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-bg">
+            <div class="cube-wrapper">
+                <div class="cube">
+                    <div class="cube-face front"></div>
+                    <div class="cube-face back"></div>
+                    <div class="cube-face right"></div>
+                    <div class="cube-face left"></div>
+                    <div class="cube-face top"></div>
+                    <div class="cube-face bottom"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="scroll-text">Scroll to explore</div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>My <span class="gradient-text glow-text">Services</span></h2>
+        <div class="services-grid">
+            <div class="service-card clickable" data-tilt>
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-plug"></i>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <h3>Plugin Development</h3>
+                    <p>Custom Spigot, Paper, and Bukkit plugins tailored to your server's needs</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Custom Mechanics</li>
+                        <li><i class="fas fa-check"></i> Server Integration</li>
+                        <li><i class="fas fa-check"></i> Performance Optimized</li>
+                    </ul>
+                    <div class="service-card-background">
+                        <div class="background-shapes">
+                            <div class="shape shape-1"></div>
+                            <div class="shape shape-2"></div>
+                            <div class="shape shape-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-card clickable" data-tilt>
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-cube"></i>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <h3>Mod Creation</h3>
+                    <p>Unique Minecraft mods that enhance gameplay and add new features</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Custom Items & Blocks</li>
+                        <li><i class="fas fa-check"></i> New Mechanics</li>
+                        <li><i class="fas fa-check"></i> Forge & Fabric</li>
+                    </ul>
+                    <div class="service-card-background">
+                        <div class="background-shapes">
+                            <div class="shape shape-1"></div>
+                            <div class="shape shape-2"></div>
+                            <div class="shape shape-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-card clickable" data-tilt>
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <h3>Datapack Design</h3>
+                    <p>Custom datapacks for enhanced gameplay mechanics and features</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Custom Recipes</li>
+                        <li><i class="fas fa-check"></i> Game Mechanics</li>
+                        <li><i class="fas fa-check"></i> Optimized Code</li>
+                    </ul>
+                    <div class="service-card-background">
+                        <div class="background-shapes">
+                            <div class="shape shape-1"></div>
+                            <div class="shape shape-2"></div>
+                            <div class="shape shape-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>Featured <span class="gradient-text">Projects</span></h2>
+        <div class="portfolio-grid">
+            <!-- Portfolio items will be dynamically added via JavaScript -->
+        </div>
+        <div class="portfolio-footer">
+            <p class="gradient-text">Each project is crafted with precision and attention to detail</p>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <h2>Service <span class="gradient-text">Pricing</span></h2>
+        <div class="pricing-grid">
+            <div class="pricing-card clickable">
+                <h3>Plugins</h3>
+                <ul>
+                    <li>Simple: $5 - $20</li>
+                    <li>Medium: $20 - $70</li>
+                    <li>Large: $70 - $150</li>
+                    <li>Advanced: $150+</li>
+                </ul>
+            </div>
+            <div class="pricing-card clickable">
+                <h3>Mods</h3>
+                <ul>
+                    <li>Simple: $10 - $25</li>
+                    <li>Medium: $35 - $50</li>
+                    <li>Advanced: $125+</li>
+                </ul>
+            </div>
+            <div class="pricing-card clickable">
+                <h3>Datapacks</h3>
+                <ul>
+                    <li>Basic: $5 - $15</li>
+                    <li>Medium: $20 - $35</li>
+                    <li>Complex: $40 - $70</li>
+                </ul>
+            </div>
+        </div>
+        <div class="pricing-notice">
+            <p>* Prices are estimates and may vary based on project requirements and timeline</p>
+            <p>* Rush orders may incur additional charges</p>
+            <p>* Special pricing available for selected SMP partnerships</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get in <span class="gradient-text">Touch</span></h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item clickable">
+                    <i class="fab fa-discord"></i>
+                    <p>Discord: 3ryze</p>
+                </div>
+                <div class="contact-item clickable">
+                    <i class="fas fa-server"></i>
+                    <p>Discord Server: <a href="https://discord.gg/hwJ8Gd6b6F" target="_blank" class="clickable">Join Here</a></p>
+                </div>
+            </div>
+            <div class="payment-methods">
+                <h3>Payment Methods</h3>
+                <ul>
+                    <li><i class="fas fa-wallet"></i> Revolut</li>
+                    <li><i class="fas fa-gift"></i> Gift Cards (Valorant, Discord Nitro, Steam)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 3ryze - Minecraft Development</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
